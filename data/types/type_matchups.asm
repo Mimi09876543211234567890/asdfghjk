@@ -82,4 +82,17 @@ TypeEffects:
 	db GRASS,        DRAGON,       NOT_VERY_EFFECTIVE
 	db ICE,          DRAGON,       SUPER_EFFECTIVE
 	db DRAGON,       DRAGON,       SUPER_EFFECTIVE
+        db POISON,       FREEDOM,      SUPER_EFFECTIVE
+        db BUG,          FREEDOM,      SUPER_EFFECTIVE
+        db ROCK,         FREEDOM,      SUPER_EFFECTIVE
+        db ELECTRIC,     FREEDOM,      SUPER_EFFECTIVE
+        db STEEL,        FREEDOM,      NOT_VERY_EFFECTIVE
+        db FLYING,       FREEDOM,      NOT_VERY_EFFECTIVE
+        db PSYCHIC-TYPE, FREEDOM,      NO_EFFECT
+        db FREEDOM,      STEEL,        SUPER_EFFECTIVE
+        db FREEDOM,      GHOST,        SUPER_EFFECTIVE
+        db FREEDOM,      BUG,          SUPER_EFFECTIVE
+        db FREEDOM,      ELECTRIC,     NOT_VERY_EFFECTIVE
+        db FREEDOM,      DRAGON,       NOT_VERY_EFFECTIVE
+        db FREEDOM,      NORMAL,       NO_EFFECT
 	db -1 ; end
